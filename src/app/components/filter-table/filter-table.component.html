@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="search-area">
+    <input class="input-search-query"
+      [(ngModel)]="searchingText"
+      placeholder="Category name"
+      (ngModelChange)="onChangeText()"
+    />
+  </div>
+  <div class="table-area">
+    <table class="category-table">
+      <tr class="table-header-row">
+        <th>Category Name</th>
+      </tr>
+      <tr *ngFor="let category of fitleredCategoryList">
+        <td>{{ category }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

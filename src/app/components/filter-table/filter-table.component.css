@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+.category-table {
+  font-family: "Kanit", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  text-align: center;
+}
+.search-area, .table-area {
+  width: 100%;
+}
+.input-search-query{
+    width: 300px;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.category-table {
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 25px;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table-header-row {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ffd5a4;
+}
+
